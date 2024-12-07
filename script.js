@@ -2,12 +2,12 @@ const inputElement = document.getElementById("input");
 const outputElement = document.getElementById("output");
 
 const commands = {
-    "help": "Available commands: help, ls, pwd, date, clear, cat Realsiteflag.txt, history, whoami, cd",
+    "help": "Available commands: help, ls, pwd, date, clear, cat, cd",
     "ls": "Desktop  Documents  Downloads  Pictures  Music  Videos  Realsiteflag.txt",
     "pwd": "/home/Guest",
     "date": new Date().toLocaleString(),
     "clear": "",
-    "cat Realsiteflag.txt": "flags are never that easy :) , hint: I used this terminal before you.",
+    "cat": "flags are never that easy :) , hint: I used this terminal before you.",
     "history": "whoami",
     "whoami": "flag{https://sail0rsteve.github.io/Y0ussefElbag0ury/}"
 };
@@ -57,8 +57,8 @@ function handleInput(event) {
         // Handle special commands and only execute them once
         if (!commandExecuted) {
             // Handle specific command outputs directly
-            if (command === "cat Realsiteflag.txt") {
-                printOutput(commands["cat Realsiteflag.txt"]);
+            if (command === "cat") {
+                printOutput(commands["cat"]);
                 commandExecuted = true; // Mark as executed
             } else if (command === "history") {
                 printOutput(commands["history"]);
@@ -71,7 +71,11 @@ function handleInput(event) {
 
         // If command isn't one of the special cases, check the `commands` object
         if (!commandExecuted) {
-            if (command in commands) {
+            if (command === "help") {
+                // Modified `help` output to exclude certain commands
+                printOutput(commands["help"]);
+                commandExecuted = true; // Mark as executed
+            } else if (command in commands) {
                 printOutput(commands[command]);
                 commandExecuted = true; // Mark as executed
             } else if (command === "clear") {
