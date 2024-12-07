@@ -21,7 +21,7 @@ Tools i have used and learned :
 <a href="https://www.elastic.co/kibana" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="40" height="40"/> </a> </p>
 <a href="https://www.snort.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/snort/snort-icon.svg" alt="Snort IPS/IDS" width="40" height="40"/></a>
 <a href="https://www.wireshark.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg" alt="Wireshark" width="40" height="40"/></a></p>
-<a href="https://www.yara.com/" target="_blank" rel="noreferrer"><img src="https://miro.medium.com/v2/resize:fit:1200/0*sFqdKE7OTLWg8IlT.png" alt="YARA" width="40" height="40"/></a><
+<a href="https://www.yara.com/" target="_blank" rel="noreferrer"><img src="https://miro.medium.com/v2/resize:fit:1200/0*sFqdKE7OTLWg8IlT.png" alt="YARA" width="40" height="40"/></a>
 <a href="https://www.opencti.io/" target="_blank" rel="noreferrer"><img src="https://blog.agood.cloud/img/common/opencti.png" alt="OpenCTI" width="40" height="40"/></a>
 
 
