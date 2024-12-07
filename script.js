@@ -74,6 +74,9 @@ function handleInput(event) {
             if (command in commands) {
                 printOutput(commands[command]);
                 commandExecuted = true; // Mark as executed
+            } else if (command === "clear") {
+                outputElement.innerHTML = ""; // Clear terminal output
+                commandExecuted = true; // Mark as executed
             } else {
                 printOutput(`bash: ${command}: command not found`);
             }
