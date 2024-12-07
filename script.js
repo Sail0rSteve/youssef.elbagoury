@@ -8,9 +8,7 @@ const commands = {
     "pwd": "/home/Guest",
     "date": new Date().toLocaleString(),
     "clear": "",
-    "cat Realsiteflag.txt": "flags are never that easy :) , hint: I used this terminal before you.",
     "history": "whoami",
-    "whoami": "flag{https://sail0rsteve.github.io/Y0ussefElbag0ury/}"
 };
 
 let currentDirectory = "/home/Guest"; // Current directory path
