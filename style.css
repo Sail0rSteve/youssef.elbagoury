@@ -16,8 +16,8 @@ body {
 }
 
 .terminal {
-    width: 800px; /* Increased width */
-    height: 500px; /* Increased height */
+    width: 900px; /* Increased width */
+    height: 700px; /* Increased height */
     border: 2px solid #00ff00;
     background-color: #000;
     padding: 20px;
