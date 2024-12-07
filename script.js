@@ -1,83 +1,45 @@
-const inputElement = document.getElementById("input");
-const outputElement = document.getElementById("output");
-const promptElement = document.getElementById("prompt");
+const terminal = document.getElementById('terminal');
+const prompt = document.getElementById('prompt');
+const commandInput = document.getElementById('command');
+const cursor = document.getElementById('cursor');
 
 const commands = {
     "help": "Available commands: help, ls, pwd, date, clear, cat, cd",
     "ls": "Desktop  Documents  Downloads  Pictures  Music  Videos  Realsiteflag.txt",
     "pwd": "/home/Guest",
-    "date": new Date().toLocaleString(),
-    "clear": "",
+    "date": () => new Date().toLocaleString(),
+    "clear": () => {
+        terminal.textContent = `${prompt.textContent} \n`;
+        commandInput.value = '';
+    },
     "cat Realsiteflag.txt": "flags are never that easy :) , hint: I used this terminal before you.",
     "history": "whoami",
     "whoami": "flag{https://sail0rsteve.github.io/Y0ussefElbag0ury/}"
 };
 
-let currentDirectory = "/home/Guest"; // Current directory path
+function handleCommand(cmd) {
+    cursor.textContent = ''; // Hide cursor while processing
 
-function printOutput(text) {
-    const outputLine = document.createElement("div");
-    outputLine.textContent = text;
-    outputElement.appendChild(outputLine);
-    outputElement.scrollTop = outputElement.scrollHeight; // Scroll to bottom
-}
+    if (commands.hasOwnProperty(cmd)) {
+        const output = commands[cmd];
 
-function handleInput(event) {
-    if (event.key === "Enter") {
-        const command = inputElement.value.trim();
-        let commandExecuted = false; // Flag to track if command is already executed
-
-        // Change prompt to show user as "Guest"
-        printOutput(`Guest@sail0rsteve:~$ ${command}`);
-
-        // Handling `cd` commands
-        if (command === "cd Desktop" || command === "cd Documents" || command === "cd Downloads" || command === "cd Pictures" || command === "cd Music" || command === "cd Videos") {
-            printOutput(`bash: cd: ${command.split(' ')[1]}: Permission denied`);
-            commandExecuted = true;
-        } else if (command === "cd Realsiteflag.txt") {
-            printOutput(`bash: cd: ${command.split(' ')[1]}: Not a directory`);
-            commandExecuted = true;
-        } else if (command === "cd ..") {
-            currentDirectory = "/home/Guest";
-            printOutput(`Changed directory to ${currentDirectory}`);
-            commandExecuted = true;
-        } else if (command === "cd /") {
-            currentDirectory = "/";
-            printOutput(`Changed directory to ${currentDirectory}`);
-            commandExecuted = true;
-        } else if (command === "cd") {
-            printOutput(`bash: cd: missing operand`);
-            commandExecuted = true;
+        if (typeof output === 'function') {
+            terminal.textContent += `${prompt.textContent} ${cmd}\n${output()}\n`;
+        } else {
+            terminal.textContent += `${prompt.textContent} ${cmd}\n${output}\n`;
         }
-
-        // Now check for other commands that shouldn't execute twice
-        if (!commandExecuted) {
-            // Handle specific command outputs
-            if (command === "cat Realsiteflag.txt") {
-                printOutput(commands["cat Realsiteflag.txt"]);
-                commandExecuted = true; // Mark as executed
-            } else if (command === "history") {
-                printOutput(commands["history"]);
-                commandExecuted = true; // Mark as executed
-            } else if (command === "whoami") {
-                printOutput(commands["whoami"]);
-                commandExecuted = true; // Mark as executed
-            } else if (command in commands) {
-                // For all other valid commands in `commands`
-                printOutput(commands[command]);
-                commandExecuted = true; // Mark as executed
-            } else {
-                printOutput(`bash: ${command}: command not found`);
-            }
-        }
-
-        inputElement.value = ""; // Clear input after command
+    } else {
+        terminal.textContent += `${prompt.textContent} ${cmd}\nCommand not found. Type 'help' for available commands.\n`;
     }
+
+    commandInput.value = '';
+    commandInput.focus();
+    cursor.textContent = '_'; // Restore cursor
 }
 
-inputElement.addEventListener("keydown", handleInput);
-
-// Focus on input field when the page loads
-window.onload = () => {
-    inputElement.focus();
-};
+commandInput.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        const command = commandInput.value.trim();
+        handleCommand(command);
+    }
+});
