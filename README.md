@@ -19,7 +19,8 @@ Tools i have used and learned :
 <a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview" target="_blank" rel="noreferrer"><img src="https://www.freeiconspng.com/thumbs/active-directory-icon-png/active-directory-icon-png-3.png" alt="Active Directory" width="65" height="65"/></a>
 <p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="65" height="65"/> </a></p>
 <a href="https://www.elastic.co" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="65" height="65"/> </a> 
-<a href="https://www.elastic.co/kibana" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="65" height="65"/> </a> </p>
+<a href="https://www.elastic.co/kibana" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="65" height="65"/> </a>
+<a href="https://www.wazuh.com/" target="_blank" rel="noreferrer"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ5FyVTl89iPc8pjWhP3RbmNF70psiRrK3JQ&s" alt="Wazuh" width="65" height="65"/></a>
 <a href="https://www.snort.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/snort/snort-icon.svg" alt="Snort IPS/IDS" width="65" height="65"/></a>
 <a href="https://www.brimdata.io/" target="_blank" rel="noreferrer"><img src="https://archive.org/download/github.com-brimsec-brim_-_2020-04-08_00-29-12/cover.jpg" alt="Brim" width="65" height="65"/></a>
 <a href="https://www.netresec.com/" target="_blank" rel="noreferrer"><img src="https://www.netresec.com/images/NetworkMiner_logo_200x200.png" alt="NetworkMiner" width="65" height="65"/></a>
@@ -30,7 +31,6 @@ Tools i have used and learned :
 <a href="https://attack.mitre.org/" target="_blank" rel="noreferrer"><img src="https://www.acalvio.com/wp-content/uploads/2019/08/mitrefeatureimg3.jpg" alt="MITRE ATT&CK" width="75" height="60"/></a>
 <a href="https://atomicredteam.io/" target="_blank" rel="noreferrer"><img src="https://avatars.githubusercontent.com/u/6877001?v=4" alt="Atomic Red Team" width="65" height="65"/></a></p>
 
-<a href="https://www.wazuh.com/" target="_blank" rel="noreferrer"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ5FyVTl89iPc8pjWhP3RbmNF70psiRrK3JQ&s" alt="Wazuh" width="65" height="65"/></a>
 
 - 🔭 I’m currently working on getting my first role in the Cybersecurity field as a SOC analyst 
 - 🌱 I’m currently learning . 
