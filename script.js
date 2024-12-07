@@ -3,7 +3,7 @@ const outputElement = document.getElementById("output");
 const promptElement = document.getElementById("prompt");
 
 const commands = {
-    "help": "Available commands: help, ls, pwd, date, clear, cat Realsiteflag.txt, history, whoami, cd",
+    "help": "Available commands: help, ls, pwd, date, clear, cat, cd",
     "ls": "Desktop  Documents  Downloads  Pictures  Music  Videos  Realsiteflag.txt",
     "pwd": "/home/Guest",
     "date": new Date().toLocaleString(),
@@ -30,6 +30,7 @@ function handleInput(event) {
         // Change prompt to show user as "Guest"
         printOutput(`Guest@sail0rsteve:~$ ${command}`);
 
+        // Handling `cd` commands
         if (command === "cd Desktop" || command === "cd Documents" || command === "cd Downloads" || command === "cd Pictures" || command === "cd Music" || command === "cd Videos") {
             printOutput(`bash: cd: ${command.split(' ')[1]}: Permission denied`);
             commandExecuted = true;
@@ -49,26 +50,24 @@ function handleInput(event) {
             commandExecuted = true;
         }
 
-        // Check for special commands only if not already handled
+        // Now check for other commands that shouldn't execute twice
         if (!commandExecuted) {
-            if (command in commands) {
-                printOutput(commands[command]);
-            } else {
-                printOutput(`bash: ${command}: command not found`);
-            }
-
             // Handle specific command outputs
             if (command === "cat Realsiteflag.txt") {
                 printOutput(commands["cat Realsiteflag.txt"]);
                 commandExecuted = true; // Mark as executed
-            }
-            if (command === "history") {
+            } else if (command === "history") {
                 printOutput(commands["history"]);
                 commandExecuted = true; // Mark as executed
-            }
-            if (command === "whoami") {
+            } else if (command === "whoami") {
                 printOutput(commands["whoami"]);
                 commandExecuted = true; // Mark as executed
+            } else if (command in commands) {
+                // For all other valid commands in `commands`
+                printOutput(commands[command]);
+                commandExecuted = true; // Mark as executed
+            } else {
+                printOutput(`bash: ${command}: command not found`);
             }
         }
 
