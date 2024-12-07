@@ -28,7 +28,9 @@ Tools i have used and learned :
 <a href="https://www.opencti.io/" target="_blank" rel="noreferrer"><img src="https://blog.agood.cloud/img/common/opencti.png" alt="OpenCTI" width="65" height="65"/></a>
 <a href="https://www.misp-project.org/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Misp-logo.png" alt="MISP" width="65" height="65"/></a></p>
 <a href="https://attack.mitre.org/" target="_blank" rel="noreferrer"><img src="https://www.acalvio.com/wp-content/uploads/2019/08/mitrefeatureimg3.jpg" alt="MITRE ATT&CK" width="75" height="60"/></a>
-<a href="https://atomicredteam.io/" target="_blank" rel="noreferrer"><img src="https://avatars.githubusercontent.com/u/6877001?v=4" alt="Atomic Red Team" width="65" height="65"/></a>
+<a href="https://atomicredteam.io/" target="_blank" rel="noreferrer"><img src="https://avatars.githubusercontent.com/u/6877001?v=4" alt="Atomic Red Team" width="65" height="65"/></a></p>
+
+<a href="https://www.wazuh.com/" target="_blank" rel="noreferrer"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ5FyVTl89iPc8pjWhP3RbmNF70psiRrK3JQ&s" alt="Wazuh" width="65" height="65"/></a>
 
 - 🔭 I’m currently working on getting my first role in the Cybersecurity field as a SOC analyst 
 - 🌱 I’m currently learning . 
