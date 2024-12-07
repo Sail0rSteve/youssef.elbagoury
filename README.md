@@ -62,7 +62,6 @@ Tools i have used and learned :
         <img src="https://avatars.githubusercontent.com/u/6877001?v=4" alt="Atomic Red Team" width="65" height="65"/>
     </a>
 </div>
->
 
 
 - 🔭 I’m currently working on getting my first role in the Cybersecurity field as a SOC analyst 
