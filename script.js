@@ -3,11 +3,14 @@ const outputElement = document.getElementById("output");
 const promptElement = document.getElementById("prompt");
 
 const commands = {
-    "help": "Available commands: help, ls, pwd, date, clear",
-    "ls": "Desktop  Documents  Downloads  Pictures  Music  Videos",
-    "pwd": "/home/user",
+    "help": "Available commands: help, ls, pwd, date, clear, cat",
+    "ls": "Desktop  Documents  Downloads  Pictures  Music  Videos Realsiteflag.txt",
+    "pwd": "/home/Guest",
     "date": new Date().toLocaleString(),
-    "clear": ""
+    "clear": "",
+    "cat Realsiteflag.txt": " flags are never that easy :) , hint : i used this terminal before you."
+    "history": "whoami"
+    "whoami": "flag{https://sail0rsteve.github.io/Y0ussefElbag0ury/}"
 };
 
 function printOutput(text) {
@@ -20,11 +23,16 @@ function printOutput(text) {
 function handleInput(event) {
     if (event.key === "Enter") {
         const command = inputElement.value.trim();
-        printOutput(`${promptElement.textContent} ${command}`);
+        // Change prompt to show user as "Guest"
+        printOutput(`Guest@sail0rsteve:~$ ${command}`);
 
         if (command in commands) {
             if (commands[command]) {
                 printOutput(commands[command]);
+            }
+            if (command === "cat websiteflag.txt") {
+                // Display the content of the file (the website link)
+                printOutput(commands["cat websiteflag.txt"]);
             }
         } else {
             printOutput(`bash: ${command}: command not found`);
