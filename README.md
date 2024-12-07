@@ -20,6 +20,8 @@ Tools i have used and learned :
 <a href="https://www.elastic.co" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="65" height="65"/> </a> 
 <a href="https://www.elastic.co/kibana" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="65" height="65"/> </a> 
 <a href="https://www.snort.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/snort/snort-icon.svg" alt="Snort IPS/IDS" width="65" height="65"/></a>
+<a href="https://www.brimdata.io/" target="_blank" rel="noreferrer"><img src="https://archive.org/download/github.com-brimsec-brim_-_2020-04-08_00-29-12/cover.jpg" alt="Brim" width="65" height="65"/></a>
+<a href="https://www.netresec.com/" target="_blank" rel="noreferrer"><img src="https://www.netresec.com/images/NetworkMiner_logo_200x200.png" alt="NetworkMiner" width="65" height="65"/></a>
 <a href="https://www.wireshark.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg" alt="Wireshark" width="65" height="65"/></a></p>
 <a href="https://www.yara.com/" target="_blank" rel="noreferrer"><img src="https://miro.medium.com/v2/resize:fit:1200/0*sFqdKE7OTLWg8IlT.png" alt="YARA" width="65" height="65"/></a>
 <a href="https://www.opencti.io/" target="_blank" rel="noreferrer"><img src="https://blog.agood.cloud/img/common/opencti.png" alt="OpenCTI" width="65" height="65"/></a>
