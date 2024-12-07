@@ -4,7 +4,7 @@ const promptElement = document.getElementById("prompt");
 
 const commands = {
     "help": "Available commands: help, ls, pwd, date, clear, cat",
-    "ls": "Desktop  Documents  Downloads  Pictures  Music  Videos Realsiteflag.txt",
+    "ls": "Desktop  Documents  Downloads  Pictures  Music  Videos  Realsiteflag.txt",
     "pwd": "/home/Guest",
     "date": new Date().toLocaleString(),
     "clear": "",
