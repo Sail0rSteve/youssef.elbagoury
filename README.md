@@ -18,13 +18,13 @@ Tools i have used and learned :
 <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="65" height="65"/> </a> 
 <p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="65" height="65"/> </a></p>
 <a href="https://www.elastic.co" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="65" height="65"/> </a> 
-<a href="https://www.elastic.co/kibana" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="65" height="65"/> </a> </p>
+<a href="https://www.elastic.co/kibana" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="65" height="65"/> </a> 
 <a href="https://www.snort.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/snort/snort-icon.svg" alt="Snort IPS/IDS" width="65" height="65"/></a>
 <a href="https://www.wireshark.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg" alt="Wireshark" width="65" height="65"/></a></p>
 <a href="https://www.yara.com/" target="_blank" rel="noreferrer"><img src="https://miro.medium.com/v2/resize:fit:1200/0*sFqdKE7OTLWg8IlT.png" alt="YARA" width="65" height="65"/></a>
 <a href="https://www.opencti.io/" target="_blank" rel="noreferrer"><img src="https://blog.agood.cloud/img/common/opencti.png" alt="OpenCTI" width="65" height="65"/></a>
-<a href="https://www.misp-project.org/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Misp-logo.png" alt="MISP" width="65" height="65"/></a>
-
+<a href="https://www.misp-project.org/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Misp-logo.png" alt="MISP" width="65" height="65"/></a></p>
+<a href="https://attack.mitre.org/" target="_blank" rel="noreferrer"><img src="https://www.mitre.org/sites/default/files/images/mitre-attack-logo.svg" alt="MITRE ATT&CK" width="65" height="65"/> </a>
 - 🔭 I’m currently working on getting my first role in the Cybersecurity field as a SOC analyst 
 - 🌱 I’m currently learning . 
 - 📫 How to reach me: via email youssefkhalid.exe@gmail.com 
