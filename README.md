@@ -14,6 +14,9 @@ Skills: Network Fundamentals /  System Security / Threat Analysis / Cyber Defens
 - 🌱 I’m currently learning . 
 - 📫 How to reach me: via email youssefkhalid.exe@gmail.com 
 
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3468035" style='border:none;'></iframe>
+
+
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/Sail0rSteve)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/youssefkhalid/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://tryhackme.com/r/p/Sail0rSteve)  
 
