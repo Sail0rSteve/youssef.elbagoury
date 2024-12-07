@@ -57,7 +57,10 @@ function handleInput(event) {
         // Handle special commands and only execute them once
         if (!commandExecuted) {
             // Handle specific command outputs directly
-            if (command === "cat") {
+            if (command === "cat Realsiteflag.txt") {
+                printOutput("flags are never that easy :) , hint: I used this terminal before you.");
+                commandExecuted = true; // Mark as executed
+            } else if (command === "cat") {
                 printOutput(commands["cat"]);
                 commandExecuted = true; // Mark as executed
             } else if (command === "history") {
