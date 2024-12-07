@@ -16,7 +16,7 @@ Skills: Network Fundamentals /  System Security / Threat Analysis / Cyber Defens
 Tools i have used and learned : 
 
 <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="65" height="65"/> </a> 
-<a href="https://www.microsoft.com/en-us/security/blog/2021/12/15/active-directory-the-identity-security-foundation/" target="_blank" rel="noreferrer"><img src="https://www.freeiconspng.com/thumbs/active-directory-icon-png/active-directory-icon-png-3.png" alt="Active Directory" width="65" height="65"/></a>
+<a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview" target="_blank" rel="noreferrer"><img src="https://www.freeiconspng.com/thumbs/active-directory-icon-png/active-directory-icon-png-3.png" alt="Active Directory" width="65" height="65"/></a>
 <p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="65" height="65"/> </a></p>
 <a href="https://www.elastic.co" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="65" height="65"/> </a> 
 <a href="https://www.elastic.co/kibana" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="65" height="65"/> </a> </p>
